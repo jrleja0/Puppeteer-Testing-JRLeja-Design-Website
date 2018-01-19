@@ -1,0 +1,8 @@
+{
+  "name": "puppeteer-testing-personal-website",
+  "version": "1.0.0",
+  "description": "using puppeteer.js to test personal website",
+  "main": "test.js",
+  "author": "Jasiu Leja <jrleja.design@gmail.com>",
+  "license": "MIT"
+}
