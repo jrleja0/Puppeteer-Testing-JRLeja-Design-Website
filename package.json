@@ -4,5 +4,8 @@
   "description": "using puppeteer.js to test personal website",
   "main": "test.js",
   "author": "Jasiu Leja <jrleja.design@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^1.0.0"
+  }
 }
