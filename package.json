@@ -2,7 +2,10 @@
   "name": "puppeteer-testing-personal-website",
   "version": "1.0.0",
   "description": "using puppeteer.js to test personal website",
-  "main": "test.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index"
+  },
   "author": "Jasiu Leja <jrleja.design@gmail.com>",
   "license": "MIT",
   "dependencies": {
