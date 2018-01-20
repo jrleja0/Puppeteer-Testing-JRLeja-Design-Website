@@ -12,7 +12,7 @@ async function getScreenshotAwaitAsync(urlPath, fileName) {
 
     await browser.close();
     console.log(`'getScreenshot' Process completed. Check public/assets for fileName: ${fileName}.png.`);
-  } catch(err) {
+  } catch (err) {
     handleError(err, browser, fileName);
   }
 }
@@ -49,8 +49,8 @@ function handleError(err, browser, fileName) {
   try {
     browser.close();
     console.log('Closing browser.');
-  } catch(err) {
-    console.error('Cannot close browser.', err);
+  } catch (errBrowser) {
+    console.error('Cannot close browser.', errBrowser);
   }
 }
 
